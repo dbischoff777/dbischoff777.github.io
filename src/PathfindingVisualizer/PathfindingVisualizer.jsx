@@ -100,15 +100,15 @@ export default class Visualizer extends Component {
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="index.html">Reset</a>
+                  <a class="nav-link text-white" href="">Reset</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-white" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false" href="#" >
                     Algorithms
                   </a>
                   <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item text-white" href="#" onClick={(e) => (this.changeValue("Start " + e.target.textContent + " Pathfinding"))}>A Star Search</a></li>
-                    <li><a class="dropdown-item text-white" href="#" onClick={(e) => (this.changeValue("Start " + e.target.textContent + " Pathfinding"))}>Breadth-first Search</a></li>
+                    {/* <li><a class="dropdown-item text-white" href="#" onClick={(e) => (this.changeValue("Start " + e.target.textContent + " Pathfinding"))}>A Star Search</a></li>
+                    <li><a class="dropdown-item text-white" href="#" onClick={(e) => (this.changeValue("Start " + e.target.textContent + " Pathfinding"))}>Breadth-first Search</a></li> */}
                     <li><a class="dropdown-item text-white" href="#" onClick={(e) => (this.changeValue("Start " + e.target.textContent + " Pathfinding"))}>Dijkstra</a></li>
                   </ul>
                 </li>
